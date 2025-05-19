@@ -1,13 +1,13 @@
-package com.smartfintech.codereview;
+package com.optimization.orchestration;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class CodereviewApplication {
+public class OrchestrationApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(CodereviewApplication.class, args);
+        SpringApplication.run(OrchestrationApplication.class, args);
     }
 
 }

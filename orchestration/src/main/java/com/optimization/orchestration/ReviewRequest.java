@@ -1,4 +1,4 @@
-package com.smartfintech.codereview;
+package com.optimization.orchestration;
 
 import lombok.Data;
 

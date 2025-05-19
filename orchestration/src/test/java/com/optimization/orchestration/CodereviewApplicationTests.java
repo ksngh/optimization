@@ -1,10 +1,10 @@
-package com.smartfintech.codereview;
+package com.optimization.orchestration;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class CodereviewApplicationTests {
+class OrchestrationApplicationTests {
 
     @Test
     void contextLoads() {
