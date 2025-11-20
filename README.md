@@ -118,12 +118,12 @@ LLM은 해당 규칙과 코드를 비교하여 리뷰 코멘트를 자동 생성
 
 | 구성 요소 | 기술 |
 |----------|-------|
-| 코드 임베딩 | OpenAI, Cohere, CodeBERT |
-| Vector DB | Qdrant, Pinecone, PGVector |
-| 리뷰 생성 | GPT-4, Claude, Ollama |
+| 코드 임베딩 | OpenAI|
+| Vector DB | Qdrant|
+| 리뷰 생성 | GPT-4 mini|
 | 서버 구성 | Spring Boot, FastAPI, Spring AI |
 | 자동화 트리거 | GitHub Webhook, GitHub Actions |
-| 리뷰 출력 | PR 코멘트, Markdown, 내부 시스템 |
+| 리뷰 출력 | PR 코멘트, Markdown|
 
 ---
 
@@ -134,12 +134,4 @@ LLM은 해당 규칙과 코드를 비교하여 리뷰 코멘트를 자동 생성
 - 전체 처리 시간 지연 (약 6분 소요)  
 - 임베딩/LLM 호출/DB 검색 등 리소스 사용량 증가  
 - PR이 많은 환경에서는 운영 부담 증가  
-
-### 개선 가능성
-
-- 코드 블록 분할 및 병렬 처리  
-- 임베딩 캐싱  
-- diff 기반 최소 임베딩  
-- GPU 기반 온프레미스 LLM/임베딩 서버 도입 (Ollama, vLLM)  
-- 규칙 데이터 정규화 및 구조화  
 
